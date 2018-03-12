@@ -1,0 +1,16 @@
+2018-03-11 23:16:20 ERROR BankController:102 - Too many attempts, you account has been locked.
+com.revature.exception.AuthenticationException
+	at com.revature.controller.BankController.checkCredintial(BankController.java:100)
+	at com.revature.controller.BankController.loginPage(BankController.java:50)
+	at com.revature.controller.BankController.welcomePage(BankController.java:32)
+	at com.revature.controller.BankController.loginPage(BankController.java:57)
+	at com.revature.controller.BankController.welcomePage(BankController.java:32)
+	at com.revature.controller.BankController.loginPage(BankController.java:57)
+	at com.revature.controller.BankController.welcomePage(BankController.java:32)
+	at com.revature.controller.BankController.<init>(BankController.java:23)
+	at com.revature.Main.main(Main.java:13)
+2018-03-11 23:19:46 TRACE BankingTest:39 - Testing usercredintial with invalid username and password.
+2018-03-11 23:19:46 TRACE BankRepositoryJDBC:18 - Checking user credintial by username and password.
+2018-03-11 23:19:57 TRACE BankingTest:31 - Testing usercredintial with valid username and password.
+2018-03-11 23:19:57 TRACE BankRepositoryJDBC:18 - Checking user credintial by username and password.
+2018-03-11 23:19:57 TRACE BankRepositoryJDBC:28 - Valid username and password.
